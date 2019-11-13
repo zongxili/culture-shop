@@ -1,0 +1,487 @@
+@font-face {
+  font-family: logoFont;
+  src: url(./fonts/NeueHaasUnicaW1G-HeavyIt.woff); }
+html {
+  scroll-behavior: smooth; }
+
+html {
+  width: 100%;
+  margin: 0 0 0 0; }
+  html body {
+    text-align: center;
+    margin: 0 0 0 0;
+    width: 100%; }
+    html body a {
+      text-decoration: none; }
+    html body .division-line {
+      width: 80%;
+      text-align: center;
+      border: black 10px;
+      display: block;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 10%;
+      height: 0px;
+      color: black;
+      border: 4px solid #ccc;
+      border-radius: 20px; }
+    html body header {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-color: black; }
+      html body header .front-page {
+        height: 23vh;
+        display: inline-block;
+        position: relative;
+        width: 100%; }
+        html body header .front-page .header-links {
+          text-align: center;
+          width: 15%;
+          margin-left: 10px;
+          margin-top: 10px; }
+          html body header .front-page .header-links .Adbuster-icon {
+            width: 130px;
+            filter: invert(100%); }
+          html body header .front-page .header-links .media-links {
+            display: grid;
+            grid-template-columns: auto auto auto auto; }
+            html body header .front-page .header-links .media-links img {
+              margin-left: 5px;
+              margin-right: 5px;
+              filter: invert(100%);
+              width: 30px; }
+        html body header .front-page .header__heading {
+          font-family: logoFont;
+          color: red;
+          font-size: 5rem;
+          margin: 0 0 0 0;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 0; }
+        html body header .front-page .header__heading:hover {
+          color: orangered;
+          transition: 1s; }
+        html body header .front-page .header__bitpay {
+          position: absolute;
+          right: 0;
+          text-align: center;
+          top: 0;
+          margin-right: 10px;
+          margin-top: 10px; }
+          html body header .front-page .header__bitpay .header__bitpay__logo {
+            font-family: logoFont;
+            font-size: 1.5rem;
+            color: red;
+            margin: 0 0 0 0; }
+          html body header .front-page .header__bitpay .header__bitpay__text {
+            font-family: "Fira Sans", sans-serif;
+            font-size: 1rem;
+            margin-top: 10px;
+            color: white; }
+          html body header .front-page .header__bitpay .header__cart-icon {
+            filter: invert(100%);
+            height: 40px;
+            background-color: white;
+            margin: 10px 0 0 0; }
+          html body header .front-page .header__bitpay .header__cart-icon:hover {
+            filter: invert(90%);
+            transition: 1s; }
+        html body header .front-page .header__subtitles {
+          text-align: center;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          margin-bottom: 5px;
+          position: absolute;
+          bottom: 0; }
+          html body header .front-page .header__subtitles h2 {
+            font-family: Impact;
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 1.8rem;
+            color: white; }
+          html body header .front-page .header__subtitles h2:hover {
+            color: red;
+            transition: 1s; }
+      html body header .cover-page {
+        height: 77vh;
+        background-color: red;
+        text-align: center;
+        position: relative; }
+        html body header .cover-page .current_issue {
+          position: absolute;
+          top: 0; }
+        html body header .cover-page .package {
+          position: absolute;
+          bottom: 70px;
+          margin-top: 20px; }
+        html body header .cover-page .cover-page__issue {
+          margin: 0 0 0 0;
+          padding-top: 30px;
+          width: 70%;
+          display: block;
+          padding-left: 15%;
+          padding-right: 15%; }
+          html body header .cover-page .cover-page__issue .cover-page__issue__img {
+            text-align: center;
+            width: 150px; }
+          html body header .cover-page .cover-page__issue .cover-page__issue_contents {
+            font-family: "Fira Sans", sans-serif;
+            display: inline-block;
+            width: 50%;
+            vertical-align: top;
+            color: white;
+            margin-top: 30px; }
+            html body header .cover-page .cover-page__issue .cover-page__issue_contents .cover-page__issue_contents__intro {
+              display: block;
+              width: 100%;
+              font-size: 1.5rem; }
+            html body header .cover-page .cover-page__issue .cover-page__issue_contents .cover-page__issue__button {
+              margin-left: auto;
+              margin-right: auto;
+              background-color: black;
+              font-size: 1.5rem;
+              color: white;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              display: block;
+              border-radius: 20px;
+              border: none;
+              font-family: logoFont;
+              padding-left: 15px;
+              padding-right: 15px; }
+        html body header .cover-page .cover-page_donation {
+          width: 70%;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-left: 15%;
+          margin-right: 15%;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          background-color: #F7B500;
+          font-size: 2rem;
+          border-radius: 20px; }
+          html body header .cover-page .cover-page_donation input {
+            text-align: center;
+            font-size: 2rem;
+            border-radius: 20px;
+            border: 3px solid white;
+            background-color: red;
+            color: white; }
+          html body header .cover-page .cover-page_donation p {
+            font-family: "Fira Sans", sans-serif;
+            margin: 0 0 0 0;
+            display: inline;
+            color: white; }
+          html body header .cover-page .cover-page_donation .button__subscribe {
+            background-color: #F7B500;
+            border: none;
+            font-size: 2rem;
+            color: white;
+            margin-right: 10px;
+            font-family: logoFont; }
+          html body header .cover-page .cover-page_donation .button__subscribe:hover {
+            transition: 1s;
+            color: red; }
+        html body header .cover-page .arrow-down-button {
+          position: absolute;
+          display: block;
+          width: 100%;
+          bottom: 0;
+          margin: 0 0 0 0;
+          background-color: red;
+          border: none; }
+          html body header .cover-page .arrow-down-button img {
+            width: 70px; }
+    html body .tools {
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 40px; }
+      html body .tools .tools__heading {
+        text-align: center;
+        font-size: 2rem; }
+      html body .tools .tools__section {
+        display: grid;
+        grid-template-columns: auto auto auto; }
+        html body .tools .tools__section .tools__item {
+          margin-top: 20px;
+          text-align: center;
+          display: inline-block; }
+          html body .tools .tools__section .tools__item .product__img {
+            width: 300px;
+            box-shadow: 10px 10px 5px grey; }
+          html body .tools .tools__section .tools__item .rounded-circle {
+            border-radius: 50%;
+            box-shadow: 10px 10px 5px grey; }
+          html body .tools .tools__section .tools__item .product__name {
+            margin-top: 10px;
+            font-size: 1.4rem;
+            font-family: Impact; }
+          html body .tools .tools__section .tools__item .product__description {
+            margin-top: 5px; }
+          html body .tools .tools__section .tools__item p {
+            font-family: "Fira Sans", sans-serif; }
+      html body .tools .media__section {
+        display: grid;
+        grid-template-columns: 1fr 2fr; }
+        html body .tools .media__section .tools__video iframe {
+          display: block;
+          margin-left: 20px;
+          width: 90%;
+          margin-bottom: 10px; }
+        html body .tools .media__section .tools__video button {
+          margin-left: auto;
+          margin-right: auto;
+          background-color: AntiqueWhite;
+          font-size: 2rem;
+          color: black;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          display: block;
+          border-radius: 20px;
+          border: none;
+          font-family: logoFont;
+          padding-left: 15px;
+          padding-right: 15px; }
+      html body .tools .two-elements-field {
+        display: grid;
+        grid-template-columns: auto auto; }
+        html body .tools .two-elements-field .tools__item img {
+          width: 400px;
+          height: 400px;
+          box-shadow: 10px 10px 5px grey; }
+        html body .tools .two-elements-field .tools__item a {
+          color: black; }
+          html body .tools .two-elements-field .tools__item a h3 {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.4rem;
+            font-family: Impact;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow);
+            background-position: -0% 0;
+            background-size: 200% auto;
+            transition: background-position 0.5s ease-out; }
+          html body .tools .two-elements-field .tools__item a h3:hover {
+            background-position: -99.99% 0;
+            border-radius: 25px; }
+        html body .tools .two-elements-field .tools__item p {
+          margin-top: 5px;
+          font-family: "Fira Sans", sans-serif; }
+      html body .tools .three-elements-field {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto; }
+        html body .tools .three-elements-field .tools__item .product__img {
+          width: 300px;
+          height: 300px;
+          box-shadow: 10px 10px 5px grey; }
+        html body .tools .three-elements-field .tools__item a {
+          color: black; }
+          html body .tools .three-elements-field .tools__item a h3 {
+            margin-top: 10px;
+            font-size: 1.4rem;
+            font-family: Impact;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow);
+            background-position: -0% 0;
+            background-size: 200% auto;
+            transition: background-position 0.5s ease-out; }
+          html body .tools .three-elements-field .tools__item a h3:hover {
+            background-position: -99.99% 0;
+            border-radius: 25px; }
+        html body .tools .three-elements-field .tools__item p {
+          margin-top: 5px;
+          font-family: "Fira Sans", sans-serif; }
+    html body .back-issues {
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%; }
+      html body .back-issues .back-issues__heading {
+        font-family: Impact;
+        color: black;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-decoration: underline; }
+      html body .back-issues .swiper-container {
+        width: 100%;
+        height: 500px;
+        border: 5px solid grey;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px 20px 10px 20px; }
+        html body .back-issues .swiper-container .swiper-wrapper {
+          text-align: center;
+          margin: 0 0 0 0; }
+          html body .back-issues .swiper-container .swiper-wrapper .swiper-slide {
+            position: relative;
+            margin: 0 0 0 0;
+            text-align: center;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center; }
+            html body .back-issues .swiper-container .swiper-wrapper .swiper-slide img {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 300px;
+              height: 300px;
+              text-align: center; }
+            html body .back-issues .swiper-container .swiper-wrapper .swiper-slide p {
+              position: absolute;
+              bottom: 10%;
+              font-size: 1rem;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              display: block;
+              margin-top: 0;
+              font-family: "Fira Sans", sans-serif; }
+      html body .back-issues .non-recommended {
+        color: black;
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: auto auto auto auto; }
+        html body .back-issues .non-recommended .product__img {
+          height: 250px;
+          width: 250px; }
+      html body .back-issues .back-issue__item {
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        text-align: center; }
+        html body .back-issues .back-issue__item .product__img {
+          box-shadow: 10px 10px 5px grey; }
+        html body .back-issues .back-issue__item p {
+          margin-top: 5px;
+          font-family: "Fira Sans", sans-serif; }
+        html body .back-issues .back-issue__item h3 {
+          margin-top: 10px;
+          font-size: 1.4rem;
+          font-family: Impact; }
+      html body .back-issues .recommended .product__img {
+        width: 40%;
+        box-shadow: 10px 10px 5px grey; }
+      html body .back-issues .recommended p {
+        font-family: "Fira Sans", sans-serif; }
+    html body .donation {
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 70px; }
+      html body .donation .donation__heading {
+        font-family: Impact;
+        color: black;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-decoration: underline; }
+      html body .donation p {
+        text-align: center;
+        margin-top: 15px;
+        font-family: "Fira Sans", sans-serif;
+        font-size: 1.2rem;
+        color: black; }
+      html body .donation .donation__submit {
+        margin-top: 20px;
+        text-align: center; }
+        html body .donation .donation__submit input {
+          font-size: 2rem;
+          border-radius: 20px;
+          border: 2px solid black;
+          width: 125px;
+          text-align: center; }
+        html body .donation .donation__submit a {
+          color: black; }
+          html body .donation .donation__submit a button {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            font-size: 2rem;
+            color: black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: inline-block;
+            border-radius: 20px;
+            border: none;
+            font-family: logoFont;
+            padding-left: 15px;
+            padding-right: 15px; }
+          html body .donation .donation__submit a button:hover {
+            color: red;
+            transition: 1s; }
+    html body footer {
+      margin: 0 0 0 0;
+      text-align: center;
+      color: white;
+      background-color: black;
+      padding-top: 50px;
+      padding-bottom: 50px; }
+      html body footer .footer_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+        html body footer .footer_section a {
+          color: white; }
+        html body footer .footer_section a:hover {
+          transition: 0.75s;
+          color: OrangeRed; }
+        html body footer .footer_section .footer-links {
+          text-align: center;
+          width: 100%;
+          margin-left: 10px;
+          margin-top: 10px; }
+          html body footer .footer_section .footer-links .Adbuster-icon {
+            width: 200px;
+            filter: invert(100%); }
+          html body footer .footer_section .footer-links p {
+            margin-top: 10px;
+            margin-bottom: 10px; }
+          html body footer .footer_section .footer-links .media-links {
+            display: grid;
+            grid-template-columns: auto auto auto auto; }
+            html body footer .footer_section .footer-links .media-links img {
+              margin-left: 5px;
+              margin-right: 5px;
+              filter: invert(100%);
+              width: 40%; }
+        html body footer .footer_section .footer-content .footer-content__heading {
+          font-size: 1.7rem;
+          font-family: Impact; }
+        html body footer .footer_section .footer-content .footer-content__subtitle {
+          font-size: 1rem;
+          font-family: 'Montserrat', sans-serif;
+          margin-top: 15px; }
+      html body footer .Back-to-Top-btn {
+        padding: 10px 10px 10px 10px;
+        margin-top: 30px;
+        background-color: black;
+        border: 4px solid white;
+        border-radius: 20px; }
+        html body footer .Back-to-Top-btn a {
+          color: white;
+          font-size: 1.5rem;
+          font-family: logoFont; }
+        html body footer .Back-to-Top-btn a:hover {
+          transition: 0.75s;
+          color: OrangeRed; }
+
+/*# sourceMappingURL=main.css.map */
